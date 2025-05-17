@@ -3,7 +3,7 @@ interface PaymentPageProps {
 }
 
 export default function PaymentPage({ onBack }: PaymentPageProps) {
-  const today = new Date().toLocaleString();
+  //const today = new Date().toLocaleString();
 
   return (
     <div className="max-w-3xl mx-auto p-8">
